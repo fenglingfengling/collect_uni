@@ -1,0 +1,51 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "minified": false,
+    "postcss": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.25.4",
+  "appid": "wx95be8db07ccaf424",
+  "projectname": "collect",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "city",
+          "pathName": "pages/city/city",
+          "query": ""
+        },
+        {
+          "name": "detail",
+          "pathName": "pages/detail/detail",
+          "query": "id=47"
+        },
+        {
+          "name": "personal",
+          "pathName": "pages/personal/personal",
+          "query": ""
+        },
+        {
+          "name": "collectList",
+          "pathName": "pages/collectList/collectList",
+          "query": ""
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}
